@@ -1,5 +1,5 @@
-password = input("Enter your password:")
-if password == "python is awesome":
-    print("ACCESS GRANTED.")
+number = float(input("Enter a number:"))
+if number == 0:
+    print("This number is equal to zero. ")
 else:
-    print("ACCESS GRANTED.")  
+    print("This number is different from zero.")
